@@ -1,0 +1,111 @@
+
+/**
+ * 24 栏布局，百分比计算
+ */
+/* 包含dt-col-字符串*/
+[class*=dt-col-] {
+	float: left;
+
+	-webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dt-col-0 {
+	display: none;
+}
+
+.dt-col-1 {
+  width: 4.16667%;
+}
+
+.dt-col-2 {
+	width: 8.33333%;
+}
+
+.dt-col-3 {
+  width: 12.50000%;
+}
+
+.dt-col-4 {
+  width: 16.66667%;
+}
+
+.dt-col-5 {
+  width: 20.83333%;
+}
+
+.dt-col-6 {
+  width: 25.00000%;
+}
+
+.dt-col-7 {
+  width: 29.16667%;
+}
+
+.dt-col-8 {
+  width: 33.33333%;
+}
+
+.dt-col-9 {
+  width: 37.50000%;
+}
+
+.dt-col-10 {
+  width: 41.66667%;
+}
+
+.dt-col-11 {
+	width: 45.83333%;
+}
+
+.dt-col-12 {
+  width: 50.00000%;
+}
+
+.dt-col-13 {
+  width: 54.16667%;
+}
+
+.dt-col-14 {
+  width: 58.33333%;
+}
+
+.dt-col-15 {
+  width: 62.50000%;
+}
+
+.dt-col-16 {
+  width: 66.66667%;
+}
+
+.dt-col-17 {
+  width: 70.83333%;
+}
+
+.dt-col-18 {
+  width: 75.00000%;
+}
+
+.dt-col-19 {
+  width: 79.16667%;
+}
+
+.dt-col-20 {
+	width: 83.33333%;
+}
+
+.dt-col-21 {
+	width: 87.50000%;
+}
+
+.dt-col-22 {
+  width: 91.66667%;
+}
+
+.dt-col-23 {
+  width: 95.83333%
+}
+
+.dt-col-24 {
+  width: 100%;
+}

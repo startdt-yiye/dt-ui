@@ -1,0 +1,20 @@
+/**
+ * 默认布局方式：浮动
+ */
+.dt-row {
+	position: relative;
+
+  -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 清除浮动 */
+.dt-row::after,
+.dt-row::before {
+  display: table;
+  content: ""
+}
+
+.dt-row::after {
+  clear: both
+}

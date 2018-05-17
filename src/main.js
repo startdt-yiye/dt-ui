@@ -5,10 +5,18 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import '@/index.css'
+
 
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
+Vue.directive('highlight',function (el) {
+  let blocks = el.querySelectorAll('pre code');
+  blocks.forEach((block)=>{
+    hljs.highlightBlock(block)
+  })
+})
 
 /* eslint-disable no-new */
 new Vue({
